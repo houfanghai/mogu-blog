@@ -1,0 +1,35 @@
+server:
+  port: 8604
+
+spring:
+  application:
+    name: mogu-sms
+  cloud:
+    nacos:
+      username: nacos
+      password: nacos
+
+      discovery:
+        server-addr: 192.168.0.223:8848
+        namespace: 6df355b2-c0f2-40fd-9220-bda7d4dfe761
+      config:
+        server-addr: 192.168.0.223:8848
+        file-extension: yaml
+        #指定分组
+        group: dev
+        #指定命名空间
+        namespace: 6df355b2-c0f2-40fd-9220-bda7d4dfe761
+  rabbitmq:
+    host: 192.168.0.223
+    port: 5672
+    username: admin
+    password: admin
+#邮件发送
+#  mail:
+#    properties:
+#      mail:
+#        smtp:
+#          auth: true
+
+
+

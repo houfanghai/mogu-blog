@@ -1,0 +1,10 @@
+${AnsiColor.GREEN}
+__   __  ___  __  __   ____
+\ \ / / |_ _| \ \/ /  / ___|
+ \ V /   | |   \  /  | |  _
+  | |    | |   /  \  | |_| |
+  |_|   |___| /_/\_\  \____|
+${AnsiColor.YELLOW}
+Gitee: https://gitee.com/moxi159753/mogu_blog_v2
+Github: https://github.com/moxi624/mogu_blog_v2
+${AnsiColor.BRIGHT_BLACK}
